@@ -27,9 +27,12 @@ The automation suite follows the **Page Object Model (POM)** and is designed to 
 
 ## 🚀 Key Bug Highlights
 *   **Critical:** Negative order totals allowed in the shopping cart.
+    ![Negative Quantity Bug](evidence/bug_1_negative_quantity_cart_1773614667689.png)
 *   **Critical:** Server-side `KeyError` at `/logout` exposing Python/Django stack traces.
+    ![Server Error Bug](evidence/bug_2_server_error_logout_1773614625460.png)
 *   **Security:** Production site running with `DEBUG = True`, exposing sensitive system metadata.
 *   **UX/UI:** Significant layout shifts and alignment issues on the Test Cases page.
+    ![UI Alignment Bug](evidence/bug_3_ui_gap_test_cases_1773614691166.png)
 
 ---
 **Author:** [Your Name/Portfolio]
